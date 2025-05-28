@@ -1,0 +1,48 @@
+{
+  "name": "vue-drag-scroll-tags",
+  "version": "1.0.0",
+  "private": false,
+  "description": "一个优雅的 Vue2 标签滚动组件，支持自动滚动和拖拽交互",
+  "main": "dist/vue-drag-scroll-tags.umd.js",
+  "module": "dist/vue-drag-scroll-tags.esm.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name vue-drag-scroll-tags src/index.js",
+    "lint": "vue-cli-service lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "scroll",
+    "tags",
+    "drag",
+    "component",
+    "vue-component",
+    "滚动标签",
+    "拖拽"
+  ],
+  "author": "Yearsy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangh1998/vue-drag-scroll-tags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangh1998/vue-drag-scroll-tags/issues"
+  },
+  "homepage": "https://github.com/wangh1998/vue-drag-scroll-tags#readme",
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
